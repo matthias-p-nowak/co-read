@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "co-read",
+  "version": "0.1.0",
+  "description": "Reads the DOM tree and extracts information after JavaScript has changed the page.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "co-read@example.com"
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "action": {
+    "default_title": "co-read"
+  },
+  "permissions": ["activeTab", "scripting", "webRequest"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

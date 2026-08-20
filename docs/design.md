@@ -6,7 +6,6 @@ A web extension that reads the DOM tree and extracts information after JavaScrip
 - Works for Firefox.
 - Settings dialog for configuring the remote side.
 - Listens for DOM changes.
-- Intercepts network traffic and reads response bodies, configured per remote by regex for URLs.
 - Easy to install in a web browser.
 
 # DOM transfer

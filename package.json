@@ -1,0 +1,8 @@
+{
+  "name": "co-read",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
